@@ -97,6 +97,16 @@
     "highlights": "Nổi bật",
     "watch_now": "Xem Ngay"
   },
+
+  "artist": {
+    "command_description": "Tìm kiếm video âm nhạc theo nghệ sĩ.",
+    "artist_name": "Tên nghệ sĩ",
+    "title_suffix": "Video Âm Nhạc",
+    "views": "Lượt xem",
+    "yesterday": "Lượt xem hôm qua",
+    "publish": "Xuất bản"
+  },
+
   "en": "Tiếng Anh",
   "vi": "Tiếng Việt",
   "youtube-trending": {

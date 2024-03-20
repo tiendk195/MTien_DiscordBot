@@ -83,6 +83,15 @@
     "change": "Change",
     "watch_now": "Watch Now"
   },
+
+  "artist": {
+    "command_description": "Search for music videos by artist.",
+    "artist_name": "Artist name",
+    "title_suffix": "Music Videos",
+    "views": "Views",
+    "yesterday": "Views yesterday",
+    "publish": "Published"
+  },
   "en": "English",
   "vi": "Vietnamese",
   "langlist": {

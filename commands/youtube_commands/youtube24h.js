@@ -11,7 +11,7 @@ module.exports = {
     try {
       const response = await axios.get("http://localhost:3000/youtubeAll");
       const videos = response.data;
-      const maxVideosPerEmbed = 5;
+      const maxVideosPerEmbed = 10;
       const maxRecordsToShow = 200; // Limit to 200 records
 
       let embeds = [];

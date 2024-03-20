@@ -11,7 +11,7 @@ module.exports = {
     try {
       const response = await axios.get("http://localhost:3000/treding");
       const videos = response.data;
-      const maxVideosPerEmbed = 5;
+      const maxVideosPerEmbed = 10;
 
       let embeds = [];
 
