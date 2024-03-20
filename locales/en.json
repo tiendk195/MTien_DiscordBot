@@ -17,5 +17,9 @@
 		"waiting_command": "global.waiting_command",
 		"guild_join": "global.guild_join",
 		"command_register": "global.command_register"
+	},
+	"language": {
+		"command_description": "language.command_description",
+		"language_option": "language.language_option"
 	}
 }
