@@ -1,1 +1,21 @@
-{}
+{
+	"vi": "vi",
+	"language": {
+		"language_switch": "language.language_switch",
+		"respone_language": "language.respone_language"
+	},
+	"langlist": {
+		"title": "langlist.title",
+		"description": "langlist.description"
+	},
+	"weather": {
+		"longitude": "weather.longitude",
+		"latitude": "weather.latitude",
+		"degreetype": "weather.degreetype",
+		"current_temperature": "weather.current_temperature",
+		"feels_like": "weather.feels_like",
+		"winddisplay": "weather.winddisplay",
+		"humidity": "weather.humidity",
+		"observationtime": "weather.observationtime"
+	}
+}

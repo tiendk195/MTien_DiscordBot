@@ -20,6 +20,18 @@
 	},
 	"language": {
 		"command_description": "language.command_description",
-		"language_option": "language.language_option"
+		"language_option": "language.language_option",
+		"language_switch": "language.language_switch",
+		"respone_language": "language.respone_language"
+	},
+	"langlist": {
+		"command_description": "langlist.command_description",
+		"title": "langlist.title",
+		"description": "langlist.description"
+	},
+	"en": "en",
+	"ascii": {
+		"command_description": "ascii.command_description",
+		"text": "ascii.text"
 	}
 }
