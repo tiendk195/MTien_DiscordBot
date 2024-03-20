@@ -12,10 +12,15 @@ module.exports = {
       const response = await axios.get("http://localhost:3000/youtubeAll");
       const videos = response.data;
       const maxVideosPerEmbed = 5;
+      const maxRecordsToShow = 200; // Limit to 200 records
 
       let embeds = [];
 
-      for (let i = 0; i < videos.length; i += maxVideosPerEmbed) {
+      for (
+        let i = 0;
+        i < videos.length && i < maxRecordsToShow;
+        i += maxVideosPerEmbed
+      ) {
         const embed = new MessageEmbed()
           .setTitle(`${language.__n(`youtube.title`)}`)
           .setColor("#FF0000");
