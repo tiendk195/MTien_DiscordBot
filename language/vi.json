@@ -98,6 +98,18 @@
     "watch_now": "Xem Ngay"
   },
 
+  "country": {
+    "command_description": "Lấy danh sách video YouTube hot nhất của một quốc gia cụ thể.",
+    "country_name": "Quốc gia",
+    "title_suffix": "Top Trending Videos",
+    "weeks": "Tuần",
+    "change": "Thay đổi",
+    "peak": "Đỉnh",
+    "peakChange": "Thay Đổi Đỉnh",
+    "streams": "Lượt Xem",
+    "streamsChange": "Thay Đổi Lượt Xem"
+  },
+
   "artist": {
     "command_description": "Tìm kiếm video âm nhạc theo nghệ sĩ.",
     "artist_name": "Tên nghệ sĩ",

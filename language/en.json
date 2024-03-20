@@ -92,6 +92,19 @@
     "yesterday": "Views yesterday",
     "publish": "Published"
   },
+
+  "country": {
+    "command_description": "Get top trending YouTube videos of a specific country.",
+    "country_name": "Country",
+    "title_suffix": "Top Trending Videos",
+    "weeks": "Weeks",
+    "peak": "Peak",
+    "change": "Change",
+    "peakChange": "Peak Change",
+    "streams": "Streams",
+    "streamsChange": "Streams Change"
+  },
+
   "en": "English",
   "vi": "Vietnamese",
   "langlist": {
