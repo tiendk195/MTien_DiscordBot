@@ -39,7 +39,6 @@
     "character_name": "Tên nhân vật",
     "anime_appearances": "Xuất hiện trong anime: "
   },
-
   "ascii": {
     "command_description": "Chuyển văn bản thành ASCII.",
     "text": "Văn bản cần chuyển",
@@ -76,10 +75,9 @@
     "language_switch": "Ngôn ngữ đã thay đổi",
     "respone_language": "Ngôn ngữ hiện tại của bot đã được đặt thành: "
   },
-
   "youtube": {
-    "command_description": "Hiển thị các video YouTube nổi bật nhất trong vòng 24 giờ qua.",
-    "title": "Các Video YouTube Nổi Bật Nhất",
+    "command_description": "Các video YouTube hiều view nhất trong vòng 24 giờ qua.",
+    "title": "Các Video YouTube nhiều view nhất trogn vòng 24 giờ qua",
     "views": "Lượt xem",
     "likes": "Thích",
     "change": "Thay đổi",
@@ -90,6 +88,21 @@
     "title": "Ngôn ngữ hiện tại của bot: ",
     "description": "Danh sách ngôn ngữ có sẵn: "
   },
+
+  "youtube_trending": {
+    "command_description": "Lấy danh sách các video âm nhạc đang hot trên YouTube.",
+    "title": "Top Trending YouTube Music Videos",
+    "tags": "Thẻ",
+    "change": "Thay đổi",
+    "highlights": "Nổi bật",
+    "watch_now": "Xem Ngay"
+  },
   "en": "Tiếng Anh",
-  "vi": "Tiếng Việt"
+  "vi": "Tiếng Việt",
+  "youtube-trending": {
+    "title": "youtube-trending.title",
+    "tags": "youtube-trending.tags",
+    "highlights": "youtube-trending.highlights",
+    "change": "youtube-trending.change"
+  }
 }

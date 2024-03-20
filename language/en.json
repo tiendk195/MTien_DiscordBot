@@ -30,7 +30,6 @@
     "minute": "minute",
     "retry": "Retry"
   },
-
   "ascii": {
     "command_description": "Convert text to ASCII.",
     "text": "Text"
@@ -66,9 +65,19 @@
     "title": "List of commands",
     "description": "Here is a list of commands that I have:"
   },
+
+  "youtube_trending": {
+    "command_description": "Get the list of trending music videos on YouTube.",
+    "title": "Top Trending YouTube Music Videos",
+    "tags": "Tags",
+    "change": "Change",
+    "watch_now": "Watch Now",
+    "highlights": "Highlights"
+  },
+
   "youtube": {
-    "command_description": "Display top trending YouTube videos in the last 24 hours.",
-    "title": "Top Trending YouTube Videos",
+    "command_description": "Most viewed videos in the past 24 hours.",
+    "title": "Most Viewed YouTube Videos",
     "views": "Views",
     "likes": "Likes",
     "change": "Change",
@@ -80,5 +89,12 @@
     "command_description": "Get a list of available language & current language.",
     "title": "Current language:",
     "description": "Language list: "
+  },
+  "youtube-trending": {
+    "command_description": "youtube-trending.command_description",
+    "title": "youtube-trending.title",
+    "tags": "youtube-trending.tags",
+    "highlights": "youtube-trending.highlights",
+    "change": "youtube-trending.change"
   }
 }
