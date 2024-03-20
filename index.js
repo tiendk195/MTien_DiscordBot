@@ -37,7 +37,7 @@ client.on("interactionCreate", async (interaction) => {
 
   try {
     if (commandName === "help") {
-      await command.execute(interaction, commands);
+      await command.execute(interaction, commands); // Truyền biến commands vào
     } else {
       await command.execute(interaction);
     }
