@@ -1,0 +1,21 @@
+{
+	"weather": {
+		"command_description": "weather.command_description",
+		"location": "weather.location",
+		"longitude": "weather.longitude",
+		"latitude": "weather.latitude",
+		"degreetype": "weather.degreetype",
+		"current_temperature": "weather.current_temperature",
+		"feels_like": "weather.feels_like",
+		"winddisplay": "weather.winddisplay",
+		"humidity": "weather.humidity",
+		"observationtime": "weather.observationtime"
+	},
+	"global": {
+		"status_ready": "global.status_ready",
+		"ready": "global.ready",
+		"waiting_command": "global.waiting_command",
+		"guild_join": "global.guild_join",
+		"command_register": "global.command_register"
+	}
+}
