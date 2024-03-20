@@ -76,6 +76,15 @@
     "language_switch": "Ngôn ngữ đã thay đổi",
     "respone_language": "Ngôn ngữ hiện tại của bot đã được đặt thành: "
   },
+
+  "youtube": {
+    "command_description": "Hiển thị các video YouTube nổi bật nhất trong vòng 24 giờ qua.",
+    "title": "Các Video YouTube Nổi Bật Nhất",
+    "views": "Lượt xem",
+    "likes": "Thích",
+    "change": "Thay đổi",
+    "watch_now": "Xem Ngay"
+  },
   "langlist": {
     "command_description": "Xem ngôn ngữ hiện tại của bot và danh sách ngôn ngữ có sẵn.",
     "title": "Ngôn ngữ hiện tại của bot: ",

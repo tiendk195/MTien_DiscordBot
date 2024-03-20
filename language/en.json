@@ -66,6 +66,14 @@
     "title": "List of commands",
     "description": "Here is a list of commands that I have:"
   },
+  "youtube": {
+    "command_description": "Display top trending YouTube videos in the last 24 hours.",
+    "title": "Top Trending YouTube Videos",
+    "views": "Views",
+    "likes": "Likes",
+    "change": "Change",
+    "watch_now": "Watch Now"
+  },
   "en": "English",
   "vi": "Vietnamese",
   "langlist": {
