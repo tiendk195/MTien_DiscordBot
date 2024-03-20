@@ -98,6 +98,13 @@
     "watch_now": "Xem Ngay"
   },
 
+  "clear": {
+    "command_description": "Xóa toàn bộ lịch sử trò chuyện trong kênh hoặc tin nhắn trực tiếp.",
+    "no_permission": "Bạn không có quyền sử dụng lệnh này.",
+    "channel_clear": "Tất cả các tin nhắn đã được xóa trong kênh:",
+    "dm_clear": "Tất cả các tin nhắn đã được xóa trong tin nhắn trực tiếp của bạn."
+  },
+
   "country": {
     "command_description": "Lấy danh sách video YouTube hot nhất của một quốc gia cụ thể.",
     "country_name": "Quốc gia",

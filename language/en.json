@@ -93,6 +93,13 @@
     "publish": "Published"
   },
 
+  "clear": {
+    "command_description": "Clear all chat history in the channel or direct messages.",
+    "no_permission": "You do not have permission to use this command.",
+    "channel_clear": "All messages have been cleared in the channel:",
+    "dm_clear": "All messages have been cleared in your DMs."
+  },
+
   "country": {
     "command_description": "Get top trending YouTube videos of a specific country.",
     "country_name": "Country",
