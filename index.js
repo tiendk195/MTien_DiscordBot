@@ -36,7 +36,11 @@ client.on("interactionCreate", async (interaction) => {
   if (!command) return;
 
   try {
-    await command.execute(interaction);
+    if (commandName === "help") {
+      await command.execute(interaction, commands);
+    } else {
+      await command.execute(interaction);
+    }
   } catch (error) {
     console.error(error);
     interaction.reply(`${language.__n(`global.command_error`)}`);

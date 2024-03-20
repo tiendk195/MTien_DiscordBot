@@ -39,49 +39,7 @@
     "character_name": "Tên nhân vật",
     "anime_appearances": "Xuất hiện trong anime: "
   },
-  "character_search": {
-    "command_description": "Tìm kiếm thông tin về một nhân vật cụ thể.",
-    "character_name": "Tên nhân vật",
-    "anime_list": "Danh sách anime có chứa nhân vật: "
-  },
-  "manga": {
-    "command_description": "Tìm kiếm thông tin về một bộ manga cụ thể.",
-    "manga_name": "Tên manga"
-  },
-  "search": {
-    "command_description": "Tìm kiếm anime bằng hình ảnh. (Hỗ trợ dung lượng ảnh tối đa 25MB)",
-    "image_link": "Liên kết đến hình ảnh",
-    "cut_black_borders": "Cắt bỏ viền đen",
-    "similarity": "Tỉ lệ trùng khớp",
-    "appears_episode": "Xuất hiện trong tập: ",
-    "file_too_large": "Dung lượng ảnh quá lớn. Vui lòng thử lại với ảnh có dung lượng nhỏ hơn 25MB.",
-    "tracemoe_api_limit": "Đã đạt giới hạn yêu cầu đến máy chủ trace.moe. Vui lòng thử lại sau."
-  },
-  "staff": {
-    "command_description": "Tìm kiếm thông tin về một nhân viên cụ thể.",
-    "staff_name": "Tên staff",
-    "staff_info": "Thông tin cá nhân của staff"
-  },
-  "studio": {
-    "command_description": "Lấy thông tin về studio và danh sách anime được sản xuất bởi studio.",
-    "studio_name": "Tên studio",
-    "product_year": "Năm sản xuất",
-    "studio_info": "Thông tin studio",
-    "product_list": "Danh sách các anime được sản xuất bởi studio"
-  },
-  "trending": {
-    "command_description": "Hiển thị danh sách 10 bộ anime đang thịnh hành trên AniList.",
-    "trending_title": "Danh sách anime đang thịnh hành",
-    "trending_description": "Danh sách 10 bộ anime đang thịnh hành trên AniList."
-  },
-  "user": {
-    "command_description": "Xem thông tin về người dùng trên AniList.",
-    "user_name": "Tên người dùng",
-    "anime_count": "bộ anime",
-    "manga_count": "bộ manga",
-    "minutes_watched": "phút đã xem",
-    "chapters_read": "chương đã đọc"
-  },
+
   "ascii": {
     "command_description": "Chuyển văn bản thành ASCII.",
     "text": "Văn bản cần chuyển",
@@ -94,6 +52,11 @@
   },
   "ping": {
     "description": "Kiểm tra độ trễ của bot."
+  },
+  "help": {
+    "command_description": "Hiển thị các lệnh hiện có.",
+    "title": "Danh sách commands",
+    "description": "Đây là danh sách lệnh hiện đang có :"
   },
   "weather": {
     "command_description": "Xem thông tin thời tiết của một địa điểm cụ thể.",

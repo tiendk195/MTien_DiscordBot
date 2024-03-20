@@ -1,27 +1,22 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
 const { MessageEmbed } = require("discord.js");
+const language = require("./../../language_setup.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("help")
-    .setDescription("Displays a list of all available commands"),
-  async execute(interaction) {
-    // Create an instance of MessageEmbed for a rich embed message
-    const helpEmbed = new MessageEmbed()
-      .setTitle("Help - List of available commands")
-      .setDescription("Here are all the commands you can use:")
-      .setColor("#00FFFF");
+    .setDescription(`${language.__n(`help.command_description`)}`),
 
-    const commandsArray = interaction.client.commands.map((command) =>
-      command.data.toJSON()
-    );
-    for (const command of commandsArray) {
-      helpEmbed.addField(
-        `/${command.name}`,
-        command.description || "No description",
-        false
-      );
-    }
-    await interaction.reply({ embeds: [helpEmbed] });
+  async execute(interaction, commands) {
+    const embed = new MessageEmbed()
+      .setColor("#0099ff")
+      .setTitle(`${language.__n(`help.title`)}`)
+      .setDescription(`${language.__n(`help.description`)}`);
+
+    commands.forEach((command) => {
+      embed.addField(command.data.name, command.data.description);
+    });
+
+    await interaction.reply({ embeds: [embed] });
   },
 };
