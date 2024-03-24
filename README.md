@@ -1,5 +1,3 @@
-
-
 ---
 
 # Discord Chatbot Project
@@ -18,6 +16,15 @@ This project is a Discord chatbot built using Node.js and the Discord.js library
   - **/language**: Change the language settings for the bot.
   - **/ascii**: Generate ASCII art.
   - **/weather**: Get weather updates for a specific location.
+
+## Requirements
+
+- Node.js v16.x or higher
+- Discord.js v13.x
+
+Make sure you have Node.js installed on your system. You can download it from [Node.js official website](https://nodejs.org/).
+
+This bot is built with Discord.js version 13.x, which requires Node.js version 16.x or newer. If you're using an older version of Node.js, you'll need to update it to run this bot.
 
 ## Installation
 1. Clone the repository:
