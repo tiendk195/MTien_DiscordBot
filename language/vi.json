@@ -18,7 +18,7 @@
     "error_reply": "Đã xảy ra lỗi khi tìm kiếm thông tin. Vui lòng thử lại sau.",
     "no_results": "Không tìm thấy: ",
     "nsfw_block": "AniChan đã chặn kết quả tìm kiếm: ",
-    "nsfw_block_reason": "__Lý do:__ Để bảo vệ máy chủ của bạn khỏi điều khoản dịch vụ của Discord, AniChan chặn các kết quả tìm kiếm chứa nội dung người lớn.",
+
     "episodes": "Số Tập",
     "chapters": "Số Chương",
     "genres": "Thể loại",
@@ -30,6 +30,7 @@
     "minute": "phút",
     "retry": "Thử lại sau"
   },
+
   "anime": {
     "command_description": "Tìm kiếm thông tin về một bộ anime cụ thể.",
     "anime_name": "Tên anime"

@@ -18,7 +18,6 @@
 		"error_reply": "An error occurred. Please try again later.",
 		"no_results": "No results found for search: ",
 		"nsfw_block": "AniChan block content: ",
-		"nsfw_block_reason": "__Reason:__ To protect your server from Discord's service, AniChan blocks search results containing 18+ content.",
 		"episodes": "Episodes",
 		"chapters": "Chapters",
 		"genres": "Genres",
@@ -28,7 +27,12 @@
 		"season": "Season",
 		"studio": "Studio",
 		"minute": "minute",
-		"retry": "Retry"
+		"retry": "Retry",
+		"unavailable": "global.unavailable"
+	},
+	"anime": {
+		"command_description": "Search for information about a specific anime.",
+		"anime_name": "Anime name"
 	},
 	"ascii": {
 		"command_description": "Convert text to ASCII.",
