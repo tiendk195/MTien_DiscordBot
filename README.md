@@ -2,8 +2,8 @@
 
 # Discord Chatbot Project
 
-## Description
-This project is a Discord chatbot built using Node.js and the Discord.js library. The chatbot is designed to provide various functionalities including fetching YouTube videos, providing weather updates, generating ASCII art, and more.
+## Introduction
+This Discord chatbot, built using Node.js and Discord.js, provides various functionalities such as fetching YouTube videos, anime information, weather updates, generating ASCII art, and more.
 
 ## Features
 - **YouTube Commands:**
@@ -11,6 +11,11 @@ This project is a Discord chatbot built using Node.js and the Discord.js library
   - **/country**: Get top trending YouTube videos of a specific country.
   - **/youtube24h**: List videos with the most views in the last 24 hours.
   - **/youtube-trending**: Fetch top trending YouTube videos.
+- **Anime Commands:**
+  - **/anime**: Search for information about a specific anime.
+  - **/character**: Search for information about a specific character.
+  - **/character_search**: Search for anime series that contain a specific character.
+  - **/manga**: Search for information about a specific manga.
 - **Other Commands:**
   - **/switch**: Switch between different channels or languages.
   - **/language**: Change the language settings for the bot.
@@ -50,6 +55,7 @@ This bot is built with Discord.js version 13.x, which requires Node.js version 1
 1. Invite the bot to your Discord server.
 2. Use the available commands to interact with the bot:
    - For YouTube commands, use `/artist`, `/country`, `/youtube24h`, or `/youtube-trending`.
+   - For Anime commands, use `/anime`, `/character`, `/character_search`, or `/manga`.
    - For other commands, use `/switch`, `/language`, `/ascii`, or `/weather`.
 
 ## Contributing
