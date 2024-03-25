@@ -20,7 +20,7 @@ function mapArtistName(inputName) {
   }
   return null;
 }
-const artistName = mapArtistName(interaction.options.getString("name"));
+
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("artist")
@@ -35,9 +35,9 @@ module.exports = {
   async execute(interaction) {
     try {
       await interaction.deferReply();
-      artistName = interaction.options.getString("name");
+      const inputName = interaction.options.getString("name");
+      const artistName = mapArtistName(inputName);
       const url = `https://api-mtiendev.onrender.com/artistVideos/${artistName}`;
-
       const response = await axios.get(url);
       const videos = response.data;
       const maxVideosPerEmbed = 10;
