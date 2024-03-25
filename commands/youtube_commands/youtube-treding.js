@@ -9,7 +9,9 @@ module.exports = {
     .setDescription(`${language.__n(`youtube_trending.command_description`)}`),
   async execute(interaction) {
     try {
-      const response = await axios.get("http://localhost:3000/treding");
+      const response = await axios.get(
+        "https://api-mtiendev.onrender.com/treding"
+      );
       const videos = response.data;
       const maxVideosPerEmbed = 10;
 
