@@ -16,7 +16,7 @@ module.exports = {
   async execute(interaction) {
     try {
       const artistName = interaction.options.getString("name");
-      const url = `http://localhost:3000/artistVideos/${artistName}`;
+      const url = `https://api-mtiendev.onrender.com/artistVideos/${artistName}`;
 
       const response = await axios.get(url);
       const videos = response.data;
@@ -44,8 +44,6 @@ module.exports = {
       });
 
       if (currentEmbed) embeds.push(currentEmbed);
-
-      // Send the initial reply with the first embed or a message if there are no videos
       if (embeds.length > 0) {
         await interaction.reply({ embeds: [embeds.shift()] });
       } else {

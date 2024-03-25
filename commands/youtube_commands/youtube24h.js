@@ -9,7 +9,9 @@ module.exports = {
     .setDescription(`${language.__n(`youtube.command_description`)}`),
   async execute(interaction) {
     try {
-      const response = await axios.get("http://localhost:3000/youtubeAll");
+      const response = await axios.get(
+        "https://api-mtiendev.onrender.com/youtubeAll"
+      );
       const videos = response.data;
       const maxVideosPerEmbed = 10;
       const maxRecordsToShow = 200; // Limit to 200 records

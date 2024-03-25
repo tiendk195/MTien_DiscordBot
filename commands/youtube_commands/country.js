@@ -16,7 +16,7 @@ module.exports = {
   async execute(interaction) {
     try {
       const countryName = interaction.options.getString("country");
-      const url = `http://localhost:3000/countryVideos/${countryName}`;
+      const url = `https://api-mtiendev.onrender.com/countryVideos/${countryName}`;
 
       const response = await axios.get(url);
       const videos = response.data;
