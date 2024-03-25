@@ -1,3 +1,31 @@
 {
-  "sontungm-tp": ["Sơn Tùng M-TP", "mtp", "Sơn Tùng", "son tung", "Son Tung"]
+  "sontungm-tp": [
+    "Sơn Tùng M-TP",
+    "mtp",
+    "Sơn Tùng",
+    "son tung",
+    "Son Tung",
+    "sontung",
+    "sontungmtp"
+  ],
+  "bts": ["BTS", "bangtan", "bangtan boys", "방탄소년단"],
+  "justinbieber": ["Justin Bieber", "justin", "bieber", "jb"],
+  "edsheeran": ["Ed Sheeran", "ed", "sheeran"],
+  "taylorswift": ["Taylor Swift", "taylor", "swift"],
+  "shakira": ["Shakira"],
+  "blackpink": ["Blackpink", "bp", "블랙핑크"],
+  "katyperry": ["Katy Perry", "katy", "perry"],
+  "eminem": ["Eminem", "marshall mathers", "slim shady"],
+  "arianagrande": ["Ariana Grande", "ariana", "grande"],
+  "theweeknd": ["The Weeknd", "weeknd", "abel tesfaye"],
+  "maroon5": ["Maroon 5", "maroon", "adam levine"],
+  "rihanna": ["Rihanna"],
+  "brunomars": ["Bruno Mars", "bruno", "mars"],
+  "twice": ["Twice", "트와이스"],
+  "adele": ["Adele"],
+  "alanwalker": ["Alan Walker", "alan", "walker"],
+  "exo": ["EXO", "엑소"],
+  "sia": ["Sia"],
+  "psy": ["Psy", "싸이"],
+  "billieeilish": ["Billie Eilish", "billie", "eilish"]
 }
