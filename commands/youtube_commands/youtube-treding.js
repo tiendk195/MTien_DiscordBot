@@ -16,7 +16,7 @@ module.exports = {
         "https://api-mtiendev.onrender.com/treding"
       );
       const videos = response.data;
-      const maxVideosPerEmbed = 10;
+      const maxVideosPerEmbed = 5;
 
       const totalPages = Math.ceil(videos.length / maxVideosPerEmbed);
       let currentPage = 0;

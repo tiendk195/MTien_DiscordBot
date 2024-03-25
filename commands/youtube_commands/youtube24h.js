@@ -16,7 +16,7 @@ module.exports = {
         "https://api-mtiendev.onrender.com/youtubeAll"
       );
       const videos = response.data;
-      const maxVideosPerEmbed = 10;
+      const maxVideosPerEmbed = 5;
       const maxRecordsToShow = 200;
 
       const totalPages = Math.ceil(videos.length / maxVideosPerEmbed);

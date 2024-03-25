@@ -22,7 +22,7 @@ module.exports = {
       const url = `https://api-mtiendev.onrender.com/countryVideos/${countryName}`;
       const response = await axios.get(url);
       const videos = response.data;
-      const maxVideosPerEmbed = 10;
+      const maxVideosPerEmbed = 5;
 
       const totalPages = Math.ceil(videos.length / maxVideosPerEmbed);
       let currentPage = 0;
