@@ -16,6 +16,10 @@ This Discord chatbot, built using Node.js and Discord.js, provides various funct
   - **/character**: Search for information about a specific character.
   - **/character_search**: Search for anime series that contain a specific character.
   - **/manga**: Search for information about a specific manga.
+  - **/search**: Search anime by image. (Supports maximum file size of 25MB)
+  - **/staff**: Search for information about a specific staff.
+  - **/studio**: Get information about the studio and a list of anime produced by the studio.
+  - **/trending**: Get a list of trending anime on AniList.
 - **Other Commands:**
   - **/switch**: Switch between different channels or languages.
   - **/language**: Change the language settings for the bot.
@@ -55,7 +59,7 @@ This bot is built with Discord.js version 13.x, which requires Node.js version 1
 1. Invite the bot to your Discord server.
 2. Use the available commands to interact with the bot:
    - For YouTube commands, use `/artist`, `/country`, `/youtube24h`, or `/youtube-trending`.
-   - For Anime commands, use `/anime`, `/character`, `/character_search`, or `/manga`.
+   - For Anime commands, use `/anime`, `/character`, `/character_search`, `/manga`, `/search`, `/staff`, `/studio`, or `/trending`.
    - For other commands, use `/switch`, `/language`, `/ascii`, or `/weather`.
 
 ## Contributing
