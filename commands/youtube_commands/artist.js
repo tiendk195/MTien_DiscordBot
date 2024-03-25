@@ -50,7 +50,6 @@ module.exports = {
         await interaction.reply("No videos found.");
       }
 
-      // Send any remaining embeds as follow-ups
       for (const embed of embeds) {
         await interaction.followUp({ embeds: [embed] });
       }

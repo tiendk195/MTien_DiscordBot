@@ -48,6 +48,40 @@
     "command_description": "Search for information about a specific manga.",
     "manga_name": "Manga name"
   },
+  "search": {
+    "command_description": "Search anime by image. (Supports maximum file size of 25MB)",
+    "image_link": "Image link",
+    "cut_black_borders": "Cut black borders",
+    "similarity": "Similarity",
+    "appears_episode": "Appears in episode: ",
+    "file_too_large": "File too large. Maximum file size is 25MB.",
+    "tracemoe_api_limit": "The request limit for the trace.moe server has been reached. Please try again later."
+  },
+  "staff": {
+    "command_description": "Search for information about a specific staff.",
+    "staff_name": "Staff name",
+    "staff_info": "Staff info"
+  },
+  "studio": {
+    "command_description": "Get information about the studio and a list of anime produced by the studio.",
+    "studio_name": "Studio name",
+    "product_year": "Product year",
+    "studio_info": "Studio info",
+    "product_list": "List of anime produced by the studio"
+  },
+  "trending": {
+    "command_description": "Get a list of trending anime on AniList.",
+    "trending_title": "Trending anime",
+    "trending_description": "Description"
+  },
+  "user": {
+    "command_description": "Get information about a specific user.",
+    "user_name": "User name",
+    "anime_count": "anime count",
+    "manga_count": "manga count",
+    "minutes_watched": "minutes watched",
+    "chapters_read": "chapters read"
+  },
   "ascii": {
     "command_description": "Convert text to ASCII.",
     "text": "Text"
