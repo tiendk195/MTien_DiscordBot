@@ -47,9 +47,10 @@ module.exports = {
       const studioData = response.data.data.Studio;
 
       if (!studioData) {
-        return interaction.reply(
+        await interaction.reply(
           `${language.__n(`global.no_results`)} **${studioName}**`
         );
+        return;
       }
 
       const animeList = studioData.media.nodes
@@ -103,7 +104,7 @@ module.exports = {
         return { embeds: [embed], components: [row] };
       };
 
-      await interaction.reply(updateEmbed());
+      const reply = await interaction.reply(updateEmbed());
 
       const filter = (i) => i.customId === "prev" || i.customId === "next";
       const collector = interaction.channel.createMessageComponentCollector({
@@ -117,7 +118,7 @@ module.exports = {
         } else if (i.customId === "next" && currentPage < totalPages - 1) {
           currentPage++;
         }
-        await interaction.editReply(updateEmbed());
+        await reply.edit(updateEmbed());
       });
 
       collector.on("end", () => {
@@ -125,7 +126,9 @@ module.exports = {
       });
     } catch (error) {
       console.error(`${language.__n(`global.error`)}`, error.response);
-      interaction.reply(`${language.__n(`global.error_reply`)}`);
+      await interaction
+        .reply(`${language.__n(`global.error_reply`)}`)
+        .catch(() => {});
     }
   },
 };
