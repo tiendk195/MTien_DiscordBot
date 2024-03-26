@@ -4,6 +4,7 @@ const axios = require("axios");
 const language = require("../../language_setup.js");
 const fs = require("fs");
 const path = require("path");
+
 const artistsData = JSON.parse(
   fs.readFileSync(path.resolve(__dirname, "../../data/artists.json"))
 );
@@ -31,17 +32,16 @@ module.exports = {
         .setDescription(`${language.__n(`artist.artist_name`)}`)
         .setRequired(true)
     ),
-
   async execute(interaction) {
     try {
       await interaction.deferReply();
-      const inputName = interaction.options.getString("name");
-      const artistName = mapArtistName(inputName);
+
+      const artistName = mapArtistName(interaction.options.getString("name"));
+
       const url = `https://api-mtiendev.onrender.com/artistVideos/${artistName}`;
       const response = await axios.get(url);
       const videos = response.data;
-      const maxVideosPerEmbed = 5;
-
+      const maxVideosPerEmbed = 10;
       const totalPages = Math.ceil(videos.length / maxVideosPerEmbed);
       let currentPage = 0;
 
@@ -49,7 +49,6 @@ module.exports = {
         const startIdx = currentPage * maxVideosPerEmbed;
         const endIdx = startIdx + maxVideosPerEmbed;
         const videosSlice = videos.slice(startIdx, endIdx);
-
         const embed = new MessageEmbed()
           .setTitle(`${artistName} ${language.__n(`artist.title_suffix`)}`)
           .setColor("#FF0000");
