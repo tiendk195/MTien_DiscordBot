@@ -62,6 +62,13 @@ This bot is built with Discord.js version 13.x, which requires Node.js version 1
    - For Anime commands, use `/anime`, `/character`, `/character_search`, `/manga`, `/search`, `/staff`, `/studio`, or `/trending`.
    - For other commands, use `/switch`, `/language`, `/ascii`, or `/weather`.
 
+## Deploying to Render
+You can deploy this bot to Render by clicking the button below:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tiendk195/MTien_DiscordBot)
+
+Make sure to follow the instructions during deployment. Ensure that you have set up the required environment variables as described in the installation section.
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 1. Fork the repository.
