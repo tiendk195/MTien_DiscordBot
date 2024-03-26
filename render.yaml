@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: MTien_DiscordBot
+    runtime: node
+    repo: https://github.com/tiendk195/MTien_DiscordBot
+    branch: master
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+    region: singapore
+    buildCommand: npm install
+    startCommand: node index.js
+version: "1"
