@@ -2,6 +2,8 @@
   "global": {
     "tracemoe_api_limit": "Because of the trace.moe server's limited requirements, you can only use this command once every 60 minutes.",
     "ready": "Ready",
+    "welcome_message": "Welcome to the server,",
+    "welcome": "We're glad to have you here!",
     "status_ready": "Bot status ready",
     "command_error": "An error occurred while executing the command: ",
     "command_register": "Command registered",

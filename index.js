@@ -22,7 +22,22 @@ for (const folder of commandFolder) {
   }
 }
 
+function printAsciiArt() {
+  console.log(`
+  __  __ _____ _            ____        _   
+ |  \/  |_   _(_) ___ _ __ | __ )  ___ | |_ 
+ | |\/| | | | | |/ _ \ '_ \|  _ \ / _ \| __|
+ | |  | | | | | |  __/ | | | |_) | (_) | |_ 
+ |_|  |_| |_| |_|\___|_| |_|____/ \___/ \__|
+                                                                                                                  
+  Developed by: https://github.com/tiendk195
+  Repo: https://github.com/tiendk195/MTien_DiscordBot
+  `);
+}
+
 client.once("ready", () => {
+  console.clear();
+  printAsciiArt();
   console.log(
     `Logged in as ${client.user.tag} ${language.__n(`global.ready`)}`
   );
@@ -37,7 +52,7 @@ client.on("interactionCreate", async (interaction) => {
 
   try {
     if (commandName === "help") {
-      await command.execute(interaction, commands); // Truyền biến commands vào
+      await command.execute(interaction, commands);
     } else {
       await command.execute(interaction);
     }
@@ -84,5 +99,29 @@ client.on("guildCreate", async (guild) => {
       })`,
       error
     );
+  }
+});
+
+client.on("guildMemberAdd", (member) => {
+  const { user } = member;
+  const avatarURL = user.displayAvatarURL({
+    format: "png",
+    dynamic: true,
+    size: 256,
+  });
+  const username = user.username;
+
+  const welcomeMessage = `${language.__n(
+    "global.welcome_message"
+  )} ${username}! ${language.__n("global.welcome")}`;
+
+  const generalChannel = member.guild.systemChannel;
+  if (generalChannel) {
+    generalChannel.send({
+      content: welcomeMessage,
+      files: [avatarURL],
+    });
+  } else {
+    console.log("General channel not found.");
   }
 });

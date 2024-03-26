@@ -6,6 +6,8 @@
     "command_error": "Đã xảy ra lỗi khi thực hiện lệnh này.",
     "command_register": "Đã đăng ký lệnh",
     "waiting_command": "Đang đăng kí lệnh...",
+    "welcome_message": "Chào mừng bạn đến với server,",
+    "welcome": "Rất vui được chào đón bạn tại đây!",
     "guild_join": "Đã tham gia máy chủ: ",
     "command_register_error": "Lỗi khi đăng ký lệnh: ",
     "server_register_error": "Lỗi khi đăng ký lệnh cho máy chủ: ",
